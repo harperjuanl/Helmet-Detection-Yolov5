@@ -130,7 +130,7 @@ Results saved to runs/detect/exp3
 Done. (0.034s)
 ```
 
-
+![Image text](/Users/juanl/Documents/01-career/001-peachproject/04-model_matching/tutorial-examples/helmet_detection/Helmet-Detection-Yolov5/result.png)
 
 ## Reference
 
