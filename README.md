@@ -53,7 +53,7 @@ width_multiple: 0.50  # layer channel multiple
 ## Model Training
 
 ```bash
-$ python train.py
+$ python train.py     # you can also add '--arguments' to change for your setting
 
 YOLOv5 🚀 2021-4-12 torch 1.8.1+cu111 CUDA:0 (NVIDIA GeForce RTX 2080 Ti, 11019.5625MB)
 Namespace(adam=False, artifact_alias='latest', batch_size=32, bbox_interval=-1, bucket='', cache_images=False, cfg='models/yolov5s_hat.yaml', data='data/hat.yaml', device='0', entity=None, epochs=50, evolve=False, exist_ok=False, global_rank=-1, hyp='data/hyp.scratch.yaml', image_weights=False, img_size=[640, 640], label_smoothing=0.0, linear_lr=False, local_rank=-1, multi_scale=False, name='exp', noautoanchor=False, nosave=False, notest=False, project='runs/train', quad=False, rect=False, resume=False, save_dir='runs/train/exp5', save_period=-1, single_cls=False, sync_bn=False, total_batch_size=32, upload_dataset=False, weights='yolov5s.pt', workers=8, world_size=1)
