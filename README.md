@@ -129,7 +129,7 @@ Results saved to runs/detect/exp3
 Done. (0.034s)
 ```
 
-![Image text](./result.jpg)
+![Image text](./imgs/result.jpg)
 
 ## Reference
 
