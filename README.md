@@ -1,5 +1,3 @@
-
-
 # Helmet Detection 
 
 AI-based helmet detection models use computer vision techniques to identify and classify objects in an image or video stream. They are designed to detect the presence of helmets on individuals and determine whether they are being worn correctly or not. The models can be trained on large datasets of helmet images and use algorithms such as yolov5 to analyze visual features and classify the images. The goal of such models is to improve safety in various industries by reducing the number of head injury incidents caused by not wearing helmets correctly or not wearing them at all.
@@ -28,7 +26,8 @@ $ pip install -r requirements.txt
 $ mkdir VOCdevkit
 $ cd VOCdevkit 
 
-# Download the data 
+# Download the data
+$ wget pek-dbc2103.eng.vmware.com/juanl/helmet-detection/VOC2007.zip
 $ unzip VOC2007.zip
 
 $ cd ..
@@ -130,7 +129,7 @@ Results saved to runs/detect/exp3
 Done. (0.034s)
 ```
 
-![Image text](/Users/juanl/Documents/01-career/001-peachproject/04-model_matching/tutorial-examples/helmet_detection/Helmet-Detection-Yolov5/result.png)
+![Image text](./result.jpg)
 
 ## Reference
 
