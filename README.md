@@ -1,6 +1,6 @@
 # Helmet Detection 
 
-AI-based helmet detection models use computer vision techniques to identify and classify objects in an image or video stream. They are designed to detect the presence of helmets on individuals and determine whether they are being worn correctly or not. The models can be trained on large datasets of helmet images and use algorithms such as yolov5 to analyze visual features and classify the images. The goal of such models is to improve safety in various industries by reducing the number of head injury incidents caused by not wearing helmets correctly or not wearing them at all.
+AI-based helmet detection models use computer vision techniques to identify and classify objects in an image or video stream. They are designed to detect the presence of helmets on individuals and determine whether they are being worn correctly or not. The models can be trained on large datasets of helmet images and use algorithms such as YOLOv5 to analyze visual features and classify the images. The goal of such models is to improve safety in various industries by reducing the number of head injury incidents caused by not wearing helmets correctly or not wearing them at all.
 
 ## Requirements
 
@@ -8,7 +8,7 @@ AI-based helmet detection models use computer vision techniques to identify and 
 - Dependencies in the requirements.txt are installed, clone this repo and run:
 
 ```bash
-$ virtualenv helmet-env
+$ python3 -m virtualenv helmet-env
 $ source yolov5-env/bin/activate
 
 $ git clone git@github.com:harperjuanl/Helmet-Detection-Yolov5.git
@@ -111,7 +111,7 @@ Optimizer stripped from runs/train/exp5/weights/last.pt, 14.4MB
 Optimizer stripped from runs/train/exp5/weights/best.pt, 14.4MB
 ```
 
-## Inference & Example
+## Inference & Examples
 
 `detect.py` runs inference on a variety of sources, using the fine-tuned model and saving results to `runs/detect`.
 
