@@ -5,7 +5,7 @@ AI-based helmet detection models use computer vision techniques to identify and 
 ## Requirements
 
 - [Python](https://www.python.org/), [PyTorch](https://pytorch.org/), and [CUDA](https://developer.nvidia.com/cuda)/[CUDNN](https://developer.nvidia.com/cudnn)  are preinstalled [we use pytorch1.8.1，python3.8，cuda11.1 in the experiment]
-- Dependencies in the requirements.txt are installed, clone this repo and run:
+- Dependencies in the requirements.txt are installed, clone this repo in your local machine and run:
 
 ```bash
 $ python3 -m virtualenv helmet-env
@@ -111,7 +111,7 @@ Optimizer stripped from runs/train/exp5/weights/last.pt, 14.4MB
 Optimizer stripped from runs/train/exp5/weights/best.pt, 14.4MB
 ```
 
-## Inference & Examples
+## Detect & Examples
 
 `detect.py` runs inference on a variety of sources, using the fine-tuned model and saving results to `runs/detect`.
 
