@@ -38,8 +38,8 @@ $ python prepare.py
 
 ```yaml
 # hat.yaml
-train: /root/yolov5-5.0/VOCdevkit/images/train/  # 16551 images
-val: /root/yolov5-5.0/VOCdevkit/images/val/  # 4952 images
+train: ./VOCdevkit/images/train/  # 16551 images
+val: ./VOCdevkit/images/val/  # 4952 images
  
 nc: 2  # number of classes
 names: ["hat","person"]  # class names
